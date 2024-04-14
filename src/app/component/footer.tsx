@@ -25,9 +25,9 @@ const Footer = () => {
                         </a>
                     </p>
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                        <Link target="blank" href={"https://web.facebook.com/home.php"} className="text-gray-500">
+                        {/* <Link target="blank" href={"https://web.facebook.com/home.php"} className="text-gray-500">
                         <AiFillFacebook className="text-xl hover:bg-blue-500 hover:text-green-100"/>
-                        </Link>
+                        </Link> */}
                                                 
                         <Link target="blank" href= {"https://www.linkedin.com/in/allah-rakkha-qadri-5592b0117/"}className="ml-3 text-gray-500">
                         <AiFillLinkedin className="text-xl "/>
