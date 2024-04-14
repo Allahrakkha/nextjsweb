@@ -23,7 +23,7 @@ const Hero =()=>{
       </h1>
       <div className="w-[300px] h-[2px] bg-blue-700"></div>
       <p className="mb-8 leading-relaxed">
-        Having vast experience in education field, but fresh in IT world. I just started Artificial Intelligence Course in governor house.
+        Having vast experience in education field, but fresh in IT world. I just started Artificial Intelligence Course in PIAIC & GIAIC.
         I just jumped into the IT Ocean and learning Typescript. My some of the projects are;
         CL Calculator.
         Cl Number Gussing Game;
