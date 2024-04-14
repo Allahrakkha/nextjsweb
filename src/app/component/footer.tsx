@@ -1,24 +1,15 @@
 import react from "react";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import Image from "next/image";
 const Footer = () => {
     return (
         <div>
             <footer className="text-gray-600 body-font">
                 <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-                            viewBox="0 0 24 24"
-                        >
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                        </svg>
+                        <Image src={require("../../../public/assesst/pictures/WhatsApp Image 2024-04-14 at 8.08.07 PM.jpeg")} alt="flickedu" width={50} height={50}
+       />
                         <span className="ml-3 text-xl">flickeducation</span>
                     </a>
                     <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
@@ -34,11 +25,11 @@ const Footer = () => {
                     </p>
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                         <a className="text-gray-500">
-                        <AiFillFacebook className="text-xl"/>
+                        <AiFillFacebook className="text-xl hover:bg-blue-500 hover:text-green-100"/>
                         </a>
                                                 
                         <a className="ml-3 text-gray-500">
-                        <AiFillLinkedin className="text-xl"/>
+                        <AiFillLinkedin className="text-xl "/>
                         </a>
                     </span>
                 </div>

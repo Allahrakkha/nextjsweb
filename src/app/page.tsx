@@ -1,10 +1,11 @@
 import Image from "next/image";
 import NavBar from "./component/navbar";
+import Hero from "./component/hero";
 
 export default function Home() {
   return (
     <div>
-      <h1>My porfolio web</h1>
+     <Hero/>
       <NavBar/>
     </div>
   );

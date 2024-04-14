@@ -7,7 +7,8 @@ const NavBar =()=>{
         <div><header className="text-gray-600 body-font">
         <div className="container mx-5 flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-       <Image src={require("../../../public/assesst/pictures/Allah Rakkha Pic.png")} alt="Allahrakkha" width={100} height={100}/>
+       <Image src={require("../../../public/assesst/pictures/WhatsApp Image 2024-04-14 at 8.08.07 PM.jpeg")} alt="Allahrakkha" width={100} height={100}
+       className='w-10 h-10 rounded-full'/>
             <span className="ml-3 text-xl">Allah Rakkha Portfolio Web</span>
           </a>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
