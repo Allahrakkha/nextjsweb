@@ -4,19 +4,19 @@ import Image from "next/image";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 const NavBar =()=>{
     return(
-        <div><header className="text-gray-600 body-font">
-        <div className="container mx-5 flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <div className="bg-blue-900 sticky z-50 top-0 text-white"><header className="text-gray-600 body-font">
+        <div className="container mx-5 flex flex-wrap p-2 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
        <Image src={require("../../../public/assesst/pictures/WhatsApp Image 2024-04-14 at 8.08.07 PM.jpeg")} alt="Allahrakkha" width={100} height={100}
        className='w-10 h-10 rounded-full'/>
-            <span className="ml-3 text-xl">Allah Rakkha Portfolio Web</span>
+            <span className="ml-3 text-xl text-white">Allah Rakkha Portfolio Web</span>
           </a>
-          <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <nav className=" text-white md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <Link href={"/"} className="mr-5 hover:text-gray-900">Home</Link>
-            <Link href="" className="mr-5 hover:text-gray-900">About</Link>
-            <Link href="" className="mr-5 hover:text-gray-900">Skills</Link>
-            <Link href="" className="mr-5 hover:text-gray-900">Projects</Link>
-            <Link href="" className="mr-5 hover:text-gray-900">Contact</Link>
+            <Link href="#About" className="mr-5 hover:text-gray-900">About</Link>
+            <Link href="#Skills" className="mr-5 hover:text-gray-900">Skills</Link>
+            <Link href="#contact" className="mr-5 hover:text-gray-900">Contact</Link>
+            <Link href="#projects" className="mr-5 hover:text-gray-900">Projects</Link>
           </nav>
       
           <Link target="blank"
