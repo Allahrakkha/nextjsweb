@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-
+import { AiOutlineCloudDownload } from "react-icons/ai";
 const NavBar =()=>{
     return(
         <div><header className="text-gray-600 body-font">
@@ -17,8 +17,13 @@ const NavBar =()=>{
             <Link href="" className="mr-5 hover:text-gray-900">Projects</Link>
             <Link href="" className="mr-5 hover:text-gray-900">Contact</Link>
           </nav>
+      
+          <Link target="blank"
+          href={"/assesst/Cv/AR.pdf"}>
+          
           <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-            Button
+           
+            Download CV
             <svg
               fill="none"
               stroke="currentColor"
@@ -30,7 +35,10 @@ const NavBar =()=>{
             >
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
+            <AiOutlineCloudDownload className="text-2xl ml-2 mx-2"/>
           </button>
+          </Link>
+  
         </div>
       </header>
       </div>
