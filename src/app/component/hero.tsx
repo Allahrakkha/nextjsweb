@@ -40,7 +40,7 @@ const Hero =()=>{
     </div>
     <div className="lg:max-w-lg lg:w-full px-20 md:w-1/2 w-5/6">
       <Image
-        className="object-cover object-center rounded-full w-72 h-72 "
+        className="object-cover  object-center w-[100%] rounded-full w-100% h-auto "
         alt="hero"
         width={800}
         height={800}
